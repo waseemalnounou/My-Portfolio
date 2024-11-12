@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, TextField, Button, Typography, Box, Alert } from '@mui/material';
 import { useState } from 'react';
+import sendEmail from '../../utilities/sendEmail.js';
 
 const ContactMe = () => {
     const [contact, setContact] = useState(false);

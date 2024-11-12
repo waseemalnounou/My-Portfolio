@@ -20,7 +20,7 @@ const MasterPage = ({ children }) => {
                 {children}
             </Box>
             <Box mt={4} py={2} textAlign="center" bgcolor="grey.200">
-                <Footer myName={siteData.myName} title="MyPortFolio" body="Thank you for visiting my site" link={siteData.siteLink}>
+                <Footer myName={siteData.myName}  body="Thank you for visiting my site" link={siteData.siteLink}>
                     Thank for visiting my site
                 </Footer>
             </Box>

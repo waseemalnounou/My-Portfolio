@@ -10,7 +10,7 @@ const SocialMediaNav = () => {
             <IconButton
                 color="secondary"
                 aria-label="Github"
-                onClick={() => window.open(siteData.Github)}
+                onClick={() => window.open(siteData.github)}
             >
                 <GitHub />
             </IconButton>
