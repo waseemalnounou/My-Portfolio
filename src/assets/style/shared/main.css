@@ -1,0 +1,77 @@
+#root {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.colorPrimary {
+    background-color: #06402b;
+    color: #ffffe3;
+    padding: 0px;
+    margin: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.colorSecondary {
+    background-color: #ffffe3;
+}
+
+.fullSize {
+    margin: 0;
+}
+
+.Body {
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    font-size: large;
+}
+
+.mainSection {
+    min-height: 40vh;
+    padding-top: 20px;
+}
+
+.paddingTop10 {
+    margin-top: 10vh;
+}
+
+.alignLeft {
+    position: absolute;
+    right: 0;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.blackColor {
+    color: black;
+}
+
+.searchBox {
+    position: absolute;
+    right: 10vw;
+}
+
+.myAvatar {
+    height: 100%;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.myImageMobile{
+    width: 80vw;
+    height: auto;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
